@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(20, 20, 20, 0.1);
+    transition: background-color 0.3s ease;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #3498db;
+    padding: 10px;
+    text-align: center;
+    color: #f7f1f1;
+    transition: background-color 0.3s ease;
+}
+
+header:hover {
+    background-color: #2980b9;
+}
+
+h1{
+    color: #0899fa;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: color 0.3s ease;
+    text-align: center;
+}
+
+h1:hover {
+    color: #2ecc71;
+}
+h2 {
+    color: #070707;
+    margin-bottom: 20px;
+    font-weight: bold;                                                  
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+    background-color: #0d5fdb8f;
+    border-radius: 10px;
+
+}
+
+h2:hover {
+    color: #fff;
+    background-color: #2980b9;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
+    font-size: 18px;
+    color: #1414148e;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+li:hover {
+    background-color: #f7f7f7;
+    transition: background-color 0.3s ease;
+    color: #000;
+}
+
+form {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+    margin-bottom: 20px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+input:focus, select:focus {
+    border-color: #2ecc71;
+    box-shadow: 0 2px 5px rgba(46, 204, 113, 0.5);
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
+button:hover {
+    background-color: #12e451;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+    outline: none;
+
+}
+
+.formulario{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #0d5fdb8f;
+    border-radius: 10px;
+}
+.datos{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+}
